@@ -15,6 +15,7 @@ def main(book_path):
     print(f"Found {num_words} total words")
     print("--------- Character Count -------")
     srt_list(letters_dictionary)
+    
     print("============= END ===============")
 
 def get_book_text(path):
